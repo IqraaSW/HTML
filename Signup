@@ -1,0 +1,73 @@
+<!-- Signup page -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- styles -->
+    <link rel="stylesheet" href="./css/default.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <form action="">
+        <div class="container">
+
+            <div class="img">
+                <img src="./img/pic.png" alt="" height="500px">
+            </div>
+            <div class="form">
+                <div class="one">
+                    <div class="row">
+                        <p>Username</p>
+                        <input type="text" placeholder="Username" id="username">
+                    </div>
+                    <div class="row">
+                        <p>Email</p>
+                        <input type="email" placeholder="email" id="email">
+                    </div>
+                    <div class="row">
+                        <p>Password</p>
+                        <input type="password" placeholder="Password" id="pw">
+                    </div>
+
+                    <div class="row">
+                        <p>Confirm Password</p>
+                        <input type="password" placeholder="Confirm Password" id="con_pw">
+                    </div>
+
+                    <div class="row hide" id="show">
+                        <p>Passwords don't match</p>
+                    </div>
+
+                    <div class="row checkbox">
+                        <input type="checkbox" name="agree" id="agree">
+                        <label for="agree"> I agree to the terms & conditions.</label>
+                    </div>
+
+                    <div class="row hide" id="show1">
+                        <p>please fill the required fields</p>
+                    </div>
+
+                    <div class="row button">
+                        <button id="signup">Sign up</button>
+                        <button id="signin">Sign in</button>
+                    </div>
+
+                </div>
+            </div>
+    </form>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
